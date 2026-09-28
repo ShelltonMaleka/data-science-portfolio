@@ -1,0 +1,36 @@
+workbook,check,affected_column,count,proposed_action
+OLD,missing keys,Unique ID,0,Investigate
+OLD,duplicate keys,Unique ID,0,Investigate before join
+OLD,missing values,Cu,0,Retain as missing
+OLD,censored entries,Cu,0,Preserve original; treat explicitly
+OLD,other nonnumeric,Cu,0,Inspect original value
+OLD,missing values,Zn,0,Retain as missing
+OLD,censored entries,Zn,0,Preserve original; treat explicitly
+OLD,other nonnumeric,Zn,0,Inspect original value
+OLD,missing values,U,0,Retain as missing
+OLD,censored entries,U,11,Preserve original; treat explicitly
+OLD,other nonnumeric,U,0,Inspect original value
+OLD,missing values,Fe,0,Retain as missing
+OLD,censored entries,Fe,0,Preserve original; treat explicitly
+OLD,other nonnumeric,Fe,0,Inspect original value
+OLD,missing values,Mn,0,Retain as missing
+OLD,censored entries,Mn,0,Preserve original; treat explicitly
+OLD,other nonnumeric,Mn,0,Inspect original value
+NEW,missing keys,Unique ID,0,Investigate
+NEW,duplicate keys,Unique ID,0,Investigate before join
+NEW,missing values,Cu,0,Retain as missing
+NEW,censored entries,Cu,0,Preserve original; treat explicitly
+NEW,other nonnumeric,Cu,1,Inspect original value
+NEW,missing values,Zn,0,Retain as missing
+NEW,censored entries,Zn,0,Preserve original; treat explicitly
+NEW,other nonnumeric,Zn,1,Inspect original value
+NEW,missing values,U,0,Retain as missing
+NEW,censored entries,U,0,Preserve original; treat explicitly
+NEW,other nonnumeric,U,1,Inspect original value
+NEW,missing values,Fe,0,Retain as missing
+NEW,censored entries,Fe,0,Preserve original; treat explicitly
+NEW,other nonnumeric,Fe,1,Inspect original value
+NEW,missing values,Mn,0,Retain as missing
+NEW,censored entries,Mn,34,Preserve original; treat explicitly
+NEW,other nonnumeric,Mn,1,Inspect original value
+NEW,metadata row,Unique ID,1,Preserve separately

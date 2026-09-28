@@ -1,0 +1,17 @@
+workbook,original_column_name,meaning,recorded_unit,coordinate_reference,source_of_definition,unresolved_assumption
+OLD,Unique ID,Sample identifier,N/A,N/A,Column name,None
+NEW,Unique ID,Sample identifier,N/A,N/A,Column name,None
+OLD,Latitude_NAD83,Latitude,Not documented,NAD83,Column name,Exact CRS not supplied
+OLD,Longitude_NAD83,Longitude,Not documented,NAD83,Column name,Exact CRS not supplied
+NEW,Latitude (NAD 27),Latitude,Not documented,NAD27,Column name,Exact CRS not supplied
+NEW,Longitude (NAD 27),Longitude,Not documented,NAD27,Column name,Exact CRS not supplied
+OLD,Cu,Cu measurement,Not documented,N/A,Column name,Unit/method not supplied
+NEW,Cu,Cu measurement,PPM,N/A,Units row,Method comparability unknown
+OLD,Zn,Zn measurement,Not documented,N/A,Column name,Unit/method not supplied
+NEW,Zn,Zn measurement,PPM,N/A,Units row,Method comparability unknown
+OLD,U,U measurement,Not documented,N/A,Column name,Unit/method not supplied
+NEW,U,U measurement,PPM,N/A,Units row,Method comparability unknown
+OLD,Fe,Fe measurement,Not documented,N/A,Column name,Unit/method not supplied
+NEW,Fe,Fe measurement,%,N/A,Units row,Method comparability unknown
+OLD,Mn,Mn measurement,Not documented,N/A,Column name,Unit/method not supplied
+NEW,Mn,Mn measurement,PPM,N/A,Units row,Method comparability unknown

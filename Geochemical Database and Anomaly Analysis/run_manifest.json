@@ -1,0 +1,14 @@
+{
+    "OLD input hash": "7fefe0f2a1c0469aab885f9b4aef33eaaeafab34e714d2695c25ea00cd580cf6",
+    "NEW input hash": "4d45df2f0fc8d216e568b715598ba7e02b673f4fd3a09c67257f5fe16976ff3b",
+    "student_number": "2539990",
+    "seed": 12016,
+    "python": "3.13.15",
+    "pandas": "2.2.3",
+    "numpy": "2.1.3",
+    "scikit-learn": "1.6.1",
+    "baseline_features": "Cu, Zn, U",
+    "alternative_features": "Cu, Zn, U, Mn",
+    "scaling": "StandardScaler",
+    "contamination": 0.05
+}
